@@ -1,0 +1,41 @@
+<STYLE type="text/css">
+<!--
+a:hover {
+	font-size: 9pt;	color: #FF6600;
+}
+a{
+	font-size: 9pt;	text-decoration: none;	color: #4A4A4A;
+	noline:expression(this.onfocus=this.blur);
+}
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center;
+	margin: 0px;
+}
+.TableTitle1{
+	background-color:#87CEFF
+}
+FONT {
+	LINE-HEIGHT: normal
+}
+TD {
+	FONT-SIZE: 12px;
+	 LINE-HEIGHT: 22px;
+	  FONT-FAMILY: Tahoma;
+}
+.Redfont {
+	COLOR: red
+}
+#tablenew{
+	border-collapse:collapse;
+}
+.textarea {
+	font-family: "ËÎÌו";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.noborder{
+border:none;
+}
+-->
+</STYLE>
