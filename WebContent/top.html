@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+background-image:url(images/top_bg.gif);
+background-repeat:repeat-x;
+}
+.first{
+width:90%
+}
+.second{
+margin-top:8px;
+margin-left:600px;
+float:left;
+}
+.second a{
+color:#eee;
+font-size:14px;
+text-decoration:none;
+}
+.logo{
+margin-top:8px;
+margin-left:130px;
+float:left;
+}
+.third{
+background:#fff;
+border:1px solid #ccc;
+width:200px;
+float:left;
+margin-top:10px;
+margin-left:600px;
+}
+.third form input[type="text"] {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 0.8125em;
+	color: #ACACAC;
+	width: 150px;
+	padding: 6px;
+}
+.third form input[type="submit"] {
+	border: none;
+	cursor: pointer;
+	background: url(images/search.png) no-repeat ;
+	right: 0;
+	width: 25px;
+	height:25px;
+}
+.clear{
+clear:both;
+}
+.time{
+color:#eee;
+font-size:12px;
+float:left;
+margin-top:60px;
+margin-left:610px;
+}
+.menu{
+margin-top:30px;
+}
+.menu a{
+	display:block;
+	font-size:17px;
+	font-family:Microsoft Yahei;
+	width:143px;
+	padding:3px 0;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.menu ul {
+	width:1001px;
+	text-align:center;
+	list-style-type: none;
+	margin:0 auto;
+	margin-top:2px;
+	
+}
+
+.menu ul li{
+	float:left;
+	background-color:#00669a;
+	position:relative;
+}
+
+.menu ul li:hover  a{ 
+	background-color:#0e517b; 
+}	
+.menu ul li ul{
+	position:absolute;
+	top:27.5px;
+	left:0;
+	width:143px;
+	zoom:1;
+}
+
+.menu ul li ul li{
+	overflow: hidden;
+	height:0;
+	width:143px;
+	-moz-transition: height 0.5s;
+	-webkit-transition: height 0.5s;
+	-o-transition: height 0.5s;
+	-ms-transition: height 0.5s;
+	transition: height 0.5s;
+	  z-index:1;
+} 
+
+.menu ul li:hover ul li{
+	height:27px;
+
+}
+.menu ul li:hover ul { 
+  	position:absolute;
+	top:27.5px;
+  	left:0; 
+	width:143px;  
+    z-index:1;
+} 
+.menu ul li ul li a { 
+	display:block; 
+	background-color:#F1F1F1;
+	color:#00669a;
+	} 
+.menu ul li:hover ul li a { 
+	display:block; 
+	background-color:#F1F1F1;
+	color:#00669a;
+
+} 
+.menu ul li:hover ul li a:hover{
+	background:#00669a;
+	color:#F1F1F1;
+}
+</style>
+</head>
+<body>
+<div class="first">
+<div class="logo">
+<img src="images/logo.png" alt="">
+</div>
+<div class="second">
+<a href="http://hjxpb.hhu.edu.cn/" target="_blank">旧版入口</a>
+				<a href="javascript:void(0)" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://gfs.hhu.edu.cn/');">设为首页</a>
+				<a href="javascript:void(0)" onclick="addfavorite()" style="background:none;">加入收藏夹</a>
+				
+</div>
+<div class="third">
+				<form>
+				   <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+				   <input type="submit" value="">
+			    </form>
+			    </div>
+			    <div class="time">今天是： 2014年9月27日 星期六
+			    </div>
+			    
+			    <div class="menu">
+<ul>
+  <li><a href="index.jsp">首&nbsp;&nbsp;&nbsp;页</a></li>
+  <li><a href="gfsjj.html">国防生简介&nbsp;∨</a>
+  <ul>
+  <li><a href="introduction.jsp">国防生简介</a></li>
+  <li><a href="xzld.html">现任领导</a></li>
+  <li><a href="jgsz.html">机构设置</a></li>
+  </ul>
+  </li>
+  <li><a href="list_lid.jsp?lid=1">招生选拔</a></li>
+  <li><a href="list_lid.jsp?lid=10">学习生活&nbsp;∨</a>
+  <ul>
+  <li><a href="list_lid.jsp?lid=10">军政训练</a></li>
+  <li><a href="list_lid.jsp?lid=20">学风建设</a></li>
+  </ul>
+  </li>
+  <li><a href="list_lid.jsp?lid=2">新闻热点</a></li>
+  <li><a href="list_seasoul.jsp?sx=2">杂志周刊&nbsp;∨</a>
+  <ul>
+  <li><a href="list_seasoul.jsp?sx=2">炮院涛声</a></li>
+  <li><a href="list_seasoul.jsp?sx=1">海魂</a></li>
+  <li><a href="list_seasoul.jsp?sx=0">海韵</a></li>
+  </ul>
+  </li>
+  <li><a href="list_model.jsp">榜样风采</a></li>
+</ul>
+</div>
+			    <div class="clear"></div>
+			    </div>
+			    </body>
+			    </html>

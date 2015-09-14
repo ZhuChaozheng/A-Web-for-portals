@@ -1,0 +1,273 @@
+.first table{
+	margin-left:160px;
+	margin-top:-30px;
+	border-collapse: separate;
+    border-spacing: 10px;
+	
+}
+.bg table{
+	background-color:#228FCD
+}
+.second table{
+	position: absolute;
+ top:  460px;
+ left:  170px;
+ width: 980px;
+}
+.third table{
+	margin-top:-22px;
+	border-collapse: separate;
+	border-spacing:1px;
+}
+.fourth table{
+	border-collapse: separate;
+	border-spacing:1px;
+}
+.fiveth table{
+	margin-top:-20px;
+	border-collapse: separate;
+	border-spacing:4px;	
+}
+
+#font1{
+	font-family:"宋体",Arial,Serif;
+	margin-top:20px;
+}
+#font1 td{
+	font-size:14px;
+}
+#font{
+	font-family:"楷体",Serif;
+	position:absolute;
+	left:440px;
+	top:210px;
+}
+#font td{
+	font-size:18px;
+}
+.roundedRectangle{
+	height: 40px; 
+	width: 120px;
+	margin-left:10px;
+	margin-top:10px;
+	background: #9BD1FA;//背景色
+	border-width: 10px;	//边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左
+	border-style: solid;
+	border-radius: 8px;	//圆角的大小
+	border-color: #000 #000 #000 #000;	//边框颜色，依次为上、右、下、左
+}
+.float{
+	
+}
+.roundedRectangle p{
+	padding: 10px;
+	text-align:center;
+	font-size: 20px;
+}
+ a:link,a:visited
+{
+	color:#7B68EE;
+	text-decoration:none;
+}
+ a:hover
+{
+	color:#0066CC;
+}
+a:active{
+	color:#0066CC;
+}
+ul.disc{
+	list-style-type:disc
+}
+.left td{
+	text-align: left;
+}
+.right td{
+	text-align: right;
+}
+#customers{
+	border-collapse:collapse;
+	font-size:2em;
+}
+#customers th 
+  {
+  font-size:0.6em;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#84C1FF;
+  color:#ffffff;
+  }
+#customers td,#customers th{
+	border:1px solid #97CBFF;
+}
+#customers td{
+	background-color:#E0E0E0;
+	font-size:0.4em;
+}
+.mybtn:hover {
+    background:#0099CC;
+}
+.mybtn {
+    width:86px;
+    text-align:center;
+    padding-top:0.3em;
+    padding-right:1em;
+    padding-bottom:0.3em;
+    padding-left:1em;
+    font-family:Arial,sans-serif;
+    font-size:14px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-decoration:none;
+    margin-top:0px;
+    margin-right:2px;
+    margin-bottom:0px;
+    margin-left:2px;
+    vertical-align:text-bottom;
+    display:inline-block;
+    cursor:pointer;
+    zoom:1;
+    outline-width:medium;
+    outline-color:invert;
+    font-size-adjust:none;
+    font-stretch:normal;
+    border-top-left-radius:0.5em;
+    border-top-right-radius:0.5em;
+    border-bottom-left-radius:0.5em;
+    border-bottom-right-radius:0.5em;
+    box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+    text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+    color:#fefee9;
+    border-top-color:#0066CC;
+    border-right-color:#0066CC;
+    border-bottom-color:#0066CC;
+    border-left-color:#0066CC;
+    border-top-width:1px;
+    border-right-width:1px;
+    border-bottom-width:1px;
+    border-left-width:1px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    background-image:none;
+    background-attachment:scroll;
+    background-repeat:repeat;
+    background-position-x:0%;
+    background-position-y:0%;
+    background-size:auto;
+    background-origin:padding-box;
+    background-clip:padding-box;
+    background-color:#0066CC;
+}
+
+a[title]{
+ display: block;
+ width:230px;/*对宽度的定义,根据情况修改*/
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ font-size:14px;
+ }
+ td{
+ font-size:12px;
+ }
+  #a {position: absolute;
+ top:  440px;
+ left:  170px;
+ width: 980px;}
+ #b {position: absolute;
+ top:  725px;
+ left:  160px;
+ width:980px;}
+ #c{
+ position: absolute;
+ top:  1030px;
+ left:  160px;
+ width: 980px;
+ }
+ #d{
+ position: absolute;
+ top:  540px;
+ left:  160px;
+ width: 980px;
+ }
+ #e{
+ position: absolute;
+ top:  230px;
+ left:  160px;
+ width: 980px;
+ }
+ #f{
+ position: absolute;
+ top:  630px;
+ left:  180px;
+ width: 980px;
+ }
+ #g{
+ position: absolute;
+ left:  180px;
+ width: 980px;
+ }
+ #h{
+ position: absolute;
+ left:  570px;
+ top:38px;
+ }
+ #i{
+ position: absolute;
+ left:910px;
+ top:38px;
+ }
+ #j{
+ position: absolute;
+ left:255px;
+ top:35px;
+ }
+ #k{
+ position: absolute;
+ left:610px;
+ top:35px;
+ }
+ #l{
+ position: absolute;
+ left:910px;
+ top:35px;
+ }
+ #m{
+  position: absolute;
+ left:160px;
+ top:1350px;
+ width:980px;
+ }
+.position td{
+ font-size:2emx;
+ }
+ol
+{
+list-style-type:none;
+margin:0;
+overflow:hidden;
+margin-left:-30px;
+border-radius: 5px;
+margin-top:5px;
+}
+ol  a:link{
+	display:block;
+width:143.5px;
+color:#FFFFFF;
+background-color:#0066CC;
+text-align:center;
+padding:10px;
+text-decoration:none;
+}
+ol  a:visited{
+	color:#FFFFFF;
+background-color:#0066CC;
+}
+ol a:hover
+{
+background-color:#0099CC;
+}
